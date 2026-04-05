@@ -1,0 +1,89 @@
+﻿@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+/* ~~ no se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. Contiene un marcador de posición de imagen que debe sustituirse por su propio logotipo vinculado ~~ */
+.header {
+
+}
+
+body {
+	
+}
+.general {
+	font-family: "Comic Sans MS", cursive;
+	height: 800px;
+	width:1200px;
+	margin: auto;
+	margin-top: 50px;
+	/*border: 1px solid blue;*/
+}
+.sidebar1 {
+	/*display:none;*/
+	z-index:0;
+	/*float:left;*/
+	border: 1px solid #00FF99;
+	width: 200px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color:#B7FAFF;
+	
+}
+.contenido {
+	z-index:1;
+	padding: 20;
+	/*border: 1px solid red;*/
+}
+.menuadministradortrabajos{
+	width: 80%;	
+}
+
+a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
+	border: none;
+}
+a:link {
+	//color: #FFFFFF;
+	text-decoration: blink; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited, a:active, a:focus  {
+	//color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	//color: #FFFF00;
+	text-decoration: underline blink;
+}
+
+
+
+
+#insertaendiccionario{
+	/*background-color:#FFFF5E;
+	border: 1px solid #00FF99;*/
+	
+}
+.btnblanco{
+	margin: 10px;
+	
+   border: 1px solid #C7FBFE;
+  border-radius: 3px;
+  color: #555;
+  /*display: inline-block;*/
+  font: bold 12px/12px HelveticaNeue, Arial;
+  padding: 8px 11px;
+  text-decoration: none;
+  background-color:#C7FBFE;
+}
+
+.btnblanco:hover{
+   box-shadow: 10px 10px 5px #888888;
+}
+.resultadosdiccionario {
+	width:900px;
+	background-color:#FFFFE1;
+	text-justify:auto;
+	text-wrap:normal;
+	word-wrap:break-word;
+}
